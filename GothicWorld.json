@@ -1,0 +1,142 @@
+[
+	{
+	  "Title": "Myrtana / Myrtana",
+	  "TitleGeneric": "",
+	  "Description": "Mapa świat do gry opartej na Gothicu",
+	  "Override": 0,
+	  "LSide": {
+		"Locations": [
+		{
+			"Id": "001",
+			"Name": "Plac Zamkowy",
+			"Connections": [ 
+                { "Destination": "002" },
+                { "Destination": "007" },
+                { "Destination": "003" },
+                { "Destination": "008" }    
+            ],
+			"Characters": [    
+                { "Name": "Przywodca Palladynow" }
+            ]
+		}, {
+			"Id": "002",
+			"Name": "Kopalnia",
+			"Connections": [ 
+                { "Destination": "001" },
+                { "Destination": "003" },
+                { "Destination": "009" },
+                { "Destination": "001" }    
+            ],
+			"Characters": [
+				{ "Name": "Kelsier" },
+                {"Name": "Bandyci"}
+			],
+			"Items":[   
+                {"Name" : "Moc Atium"},
+                {"Name": "Ruda"}
+            ]
+		}, {
+			"Id": "003",
+			"Name": "Gornicza Dolina",
+			"Connections": [
+				{ "Destination": "002" },
+                { "Destination": "005" }, 
+                {"Destination": "006"},
+                {"Destination": "001"},
+                {"Destination": "007"}
+				
+			],
+			"Characters": [
+                {"Name": "Czarny Przemytnik"},
+			    {"Name": "Orkowie"}
+			],
+            "Items": [{"Name": "Oko Innosa"}]
+		}, {
+			"Id": "004",
+			"Name": "Kuznia Atium",
+			"Connections": [
+				{ "Destination": "003" },
+				{ "Destination": "006" }
+			],
+            "Characters": [
+                {"Name": "Kelsier"}
+            ],
+            "Items": [
+                {"Name": "Pierscien Kelsiera"}
+            ]
+		}, {
+			"Id": "005",
+			"Name": "Chatka Feruchemika",
+			"Connections": [
+                {"Destination": "006"},
+                {"Destination": "003"}
+			],
+            "Characters": [
+                {"Name": "Feruchemik"}
+            ],
+            "Items": [
+                {"Name" : "Amulet"}
+            ]
+		}, {
+			"Id": "006",
+			"Name": "Leze Smoka",
+			"Connections": [
+				{ "Destination": "005" },
+				{ "Destination": "004" },
+                { "Destination": "003"},
+                { "Destination": "011"}
+			]
+		}, {
+			"Id": "007",
+			"Name": "Ukryta Jaskinia",
+			"Connections": [
+				{ "Destination": "001" },
+				{ "Destination": "003" }
+                
+			],
+            "Characters": [
+                {"Name": "Buntownik"},
+                {"Name": "Straznik"},
+                {"Name": "Szkielet"}
+            ]
+		}, {
+			"Id": "008",
+			"Name": "Oboz",
+			"Connections": [
+				{ "Destination": "001" },
+				{ "Destination": "009" },
+                {"Destination": "011"}
+			],
+            "Characters": [
+                {"Name": "Lee"},
+                {"Name": "Bullco"}
+            ],
+            "Items": [
+                {"Name": "List"}
+            ]
+		}, {
+			"Id": "009",
+			"Name": "Obozowisko Zolnierzy",
+			"Connections": [
+				{ "Destination": "008" },
+				{ "Destination": "002" }
+			],
+			"Items": [
+                { "Name": "Plany Zolnierzy" }
+            ]
+		}, {
+			"Id": "011",
+			"Name": "Oboz Magow",
+			"Connections": [
+				{ "Destination": "008" }
+			],
+            "Characters": [
+                {"Name": "Mag Wody"}
+            ]
+		}
+	]
+},
+"RSide": {},
+"Instructions": []
+}
+]
