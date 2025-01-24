@@ -8,7 +8,7 @@
 		"Locations": [
 		{
 			"Id": "001",
-			"Name": "Plac Zamkowy",
+			"Name": "Plac_zamkowy",
 			"Connections": [ 
                 { "Destination": "002" },
                 { "Destination": "007" },
