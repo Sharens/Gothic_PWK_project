@@ -1492,7 +1492,7 @@
     "LSide": {
       "Locations": [
         {
-          "Id": "Somewhere",
+          "Id": "Anywhere",
           "Attributes": {},
           "Characters": [
             {
@@ -1521,10 +1521,9 @@
     "RSide": {},
     "Preconditions": [
       {
-        "Cond": "CharacterA.HP >= CharacterB.HP"
+          "Cond": "CharacterA.HP > CharacterB.HP"
       }
-
-    ],
+  ],
     "Instructions": [
       {
         "Op": "set",
@@ -1539,7 +1538,7 @@
       {
         "Op": "move",
         "Nodes": "CharacterB/Items/*",
-        "To": "Somewhere/Items"
+        "To": "Anywhere/Items"
       }
     ]
   },

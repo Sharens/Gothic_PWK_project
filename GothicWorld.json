@@ -16,7 +16,13 @@
                 { "Destination": "008" }    
             ],
 			"Characters": [    
-                { "Name": "Przywodca Palladynow" }
+                { "Name": "Przywodca Palladynow" },
+				{ 
+					"Name": "Bezimienny",
+					"Attributes": {
+						"HP": 100
+					}
+				}
             ]
 		}, {
 			"Id": "002",
@@ -85,7 +91,23 @@
 				{ "Destination": "004" },
                 { "Destination": "003"},
                 { "Destination": "011"}
-			]
+			],
+			"Items": [
+				{
+					"Name": "Dragon_egg",
+					"Attributes": {
+						"Value": 4000
+					}
+				}
+			],
+            "Characters": [
+                {
+					"Name": "Smog",
+					"Attributes": {
+						"HP": 10
+					}
+			}
+            ]
 		}, {
 			"Id": "007",
 			"Name": "Ukryta Jaskinia",

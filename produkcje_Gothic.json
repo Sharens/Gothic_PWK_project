@@ -29,9 +29,6 @@
       }
     ],
     "Preconditions": [
-      {
-        "Cond":"Bezimienny.Knowledge != null"
-      }
 
     ]
   },{
@@ -73,9 +70,6 @@
       }
     ],
     "Preconditions": [
-      {
-        "Cond":"Bezimienny.Knowledge != null"
-      }
 
     ]
   },{
