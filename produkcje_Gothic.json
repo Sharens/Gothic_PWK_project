@@ -1,124 +1,126 @@
 [
-  {
-    "Title": "Overwhelming Wizard / Przejęcie kontroli nad Magiem",
-    "TitleGeneric": "Overwhelming character / Przejęcie kontroli nad postacią",
-    "Description": "Stworzenie grupy z dwóch bohaterów: <<Bezimienny>> przejmuje kontrolę nad inną Mag Wody.",
-    "Override": 0,
-    "LSide": {
-      "Locations": [
-        {
-          "Id": "Anywhere",
-          "Characters": [
-            {
-              "Name": "Bezimienny",
-              "IsObject": true
-            },
-            {
-              "Name": "Mag_Wody"
-            }
-          ]
-        }
-      ]
-    },
-    "RSide": {},
-    "Instructions": [
-      {
-        "Op": "move",
-        "Nodes": "Mag_Wody",
-        "To": "Bezimienny/Characters"
-      }
-    ],
-    "Preconditions": [
-
-    ]
-  },{
-    "Title": "Picking up Ore / Podniesienie Rudy",
-    "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
-    "Description": "Bezimienny podnosi przedmiot Ruds leżący w lokacji.",
-    "Override": 0,
-    "LSide": {
-      "Locations": [
-        {
-          "Id": "LokacjaA",
-          "Attributes": {},
-          "Characters": [
-            {
-              "Name": "Bezimienny",
-              "IsObject": true,
-              "Attributes": {},
-              "Characters": [],
-              "Items": []
-            }
-          ],
-          "Items": [
-            {
-              "Id": "Ore",
-              "Attributes": {},
-              "Characters": [],
-              "Items": []
-            }
-          ]
-        }
-      ]
-    },
-    "RSide": {},
-    "Instructions": [
-      {
-        "Op": "move",
-        "Nodes": "Ore",
-        "To": "Bezimienny/Items"
-      }
-    ],
-    "Preconditions": [
-
-    ]
-  },{
-      "Title": "Getting Knowledge from Wizard / Zyskanie wiedzy od Maga Wody ",
-      "TitleGeneric": "Getting knowledge from conversation / Rozmowa z przekazaniem informacji",
-      "Description": "Przekazanie informacji Bezimienny od Mag Wody.",
-      "Override": 1,
+    {
+      "Title": "Overwhelming Wizard / Przejęcie kontroli nad Magiem",
+      "TitleGeneric": "Overwhelming character / Przejęcie kontroli nad postacią",
+      "Description": "Stworzenie grupy z dwóch bohaterów: <<Bezimienny>> przejmuje kontrolę nad inną Mag Wody.",
+      "Override": 0,
       "LSide": {
         "Locations": [
           {
-            "Name": "Obóz Magów",
-            "Attributes": {},
+            "Id": "Anywhere",
             "Characters": [
               {
-                "Name": "Mag_Wody",
-                "IsObject": true,
-                "Attributes": {},
-                "Characters": [],
-                "Items": [],
-                "Narration": [
-                  {
-                    "Name": "Wizard_knowledge",
-                    "Attributes": {
-                      "Knowledge": "Wizard will join you with killing Dragon/ Mag przyłącza się do Ciebie aby zabić smoka."
-                    },
-                    "Characters": [],
-                    "Items": []
-                  }
-                ]
+                "Name": "Bezimienny",
+                "IsObject": true
               },
               {
-                "Name": "Bezimienny",
-                "Attributes": {},
-                "Characters": []
+                "Name": "Mag_Wody"
               }
-            ],
-            "Items": [],
-            "Connections": []
+            ]
           }
         ]
       },
       "RSide": {},
-      "Preconditions": [],
       "Instructions": [
         {
-          "Op": "copy",
-          "To": "Bezimienny/Narration",
-          "Nodes": "Wizard_knowledge"
+          "Op": "move",
+          "Nodes": "Mag_Wody",
+          "To": "Bezimienny/Characters"
         }
+      ],
+      "Preconditions": [
+        {
+          "Cond":"Bezimienny.Knowledge != null"
+        }
+  
       ]
-    }
-]
+    },{
+      "Title": "Picking up Ore / Podniesienie Rudy",
+      "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
+      "Description": "Bezimienny podnosi przedmiot Ruds leżący w lokacji.",
+      "Override": 0,
+      "LSide": {
+        "Locations": [
+          {
+            "Name": "Górnicza Dolina",
+            "Attributes": {},
+            "Characters": [
+              {
+                "Name": "Bezimienny",
+                "IsObject": true,
+                "Attributes": {},
+                "Characters": [],
+                "Items": []
+              }
+            ],
+            "Items": [
+              {
+                "Id": "Ore",
+                "Attributes": {},
+                "Characters": [],
+                "Items": []
+              }
+            ]
+          }
+        ]
+      },
+      "RSide": {},
+      "Instructions": [
+        {
+          "Op": "move",
+          "Nodes": "Ore",
+          "To": "Bezimienny/Items"
+        }
+      ],
+      "Preconditions": [
+      ]
+    },{
+        "Title": "Getting Knowledge from Wizard / Zyskanie wiedzy od Maga Wody ",
+        "TitleGeneric": "Getting knowledge from conversation / Rozmowa z przekazaniem informacji",
+        "Description": "Przekazanie informacji Bezimienny od Mag Wody.",
+        "Override": 1,
+        "LSide": {
+          "Locations": [
+            {
+              "Name": "Obóz Magów",
+              "Attributes": {},
+              "Characters": [
+                {
+                  "Name": "Mag_Wody",
+                  "IsObject": true,
+                  "Attributes": {},
+                  "Characters": [],
+                  "Items": [],
+                  "Narration": [
+                    {
+                      "Name": "Wizard_knowledge",
+                      "Attributes": {
+                        "Knowledge": "Wizard will join you with killing Dragon/ Mag przyłącza się do Ciebie aby zabić smoka."
+                      },
+                      "Characters": [],
+                      "Items": []
+                    }
+                  ]
+                },
+                {
+                  "Name": "Bezimienny",
+                  "Attributes": {},
+                  "Characters": []
+                }
+              ],
+              "Items": [],
+              "Connections": []
+            }
+          ]
+        },
+        "RSide": {},
+        "Preconditions": [],
+        "Instructions": [
+          {
+            "Op": "copy",
+            "To": "Bezimienny/Narration",
+            "Nodes": "Wizard_knowledge"
+          }
+        ]
+      }
+  ]

@@ -468,16 +468,16 @@
   {
     "Title": "Picking item up / Podniesienie przedmiotu",
     "TitleGeneric": "",
-    "Description": "«Bohater» podnosi przedmiot («Something») leżący w lokacji.",
+    "Description": "Bohater podnosi przedmiot («Something») leżący w lokacji.",
     "Override": 0,
     "LSide": {
       "Locations": [
         {
-          "Id": "LokacjaA",
+          "Id": "Anywhere",
           "Attributes": {},
           "Characters": [
             {
-              "Id": "Bohater",
+              "Id": "Any1",
               "IsObject": true,
               "Attributes": {},
               "Characters": [],
@@ -500,7 +500,7 @@
       {
         "Op": "move",
         "Nodes": "Something",
-        "To": "Bohater/Items"
+        "To": "Any1/Items"
       }
     ]
   },
@@ -1492,7 +1492,7 @@
     "LSide": {
       "Locations": [
         {
-          "Id": "Anywhere",
+          "Id": "Somewhere",
           "Attributes": {},
           "Characters": [
             {
@@ -1521,9 +1521,10 @@
     "RSide": {},
     "Preconditions": [
       {
-          "Cond": "CharacterA.HP > CharacterB.HP"
+        "Cond": "CharacterA.HP >= CharacterB.HP"
       }
-  ],
+
+    ],
     "Instructions": [
       {
         "Op": "set",
@@ -1538,7 +1539,7 @@
       {
         "Op": "move",
         "Nodes": "CharacterB/Items/*",
-        "To": "Anywhere/Items"
+        "To": "Somewhere/Items"
       }
     ]
   },
