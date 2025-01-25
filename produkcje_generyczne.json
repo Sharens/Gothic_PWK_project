@@ -1,41 +1,5 @@
 [
   {
-    "Title": "Teleportation / Teleportacja",
-    "TitleGeneric": "",
-    "Description": "«Bohater» przechodzi do innej lokacji («Lokacja_B»), nawet jeśli nie jest połączona z bieżącą lokacją («Lokacja_A»).",
-    "Override": 0,
-    "LSide": {
-      "Locations": [
-        {
-          "Id": "Lokacja_A",
-          "Attributes": {},
-          "Characters": [
-            {
-              "Id": "Bohater",
-              "IsObject": true,
-              "Attributes": {},
-              "Characters": [],
-              "Items": []
-            }
-          ],
-          "Items": []
-        },
-        {
-          "Id": "Lokacja_B",
-          "Connections": []
-        }
-      ]
-    },
-    "RSide": {},
-    "Instructions": [
-      {
-        "Op": "move",
-        "Nodes": "Bohater",
-        "To": "Lokacja_B/Characters"
-      }
-    ]
-  },
-  {
     "Title": "Location change / Zmiana lokacji",
     "TitleGeneric": "Teleportation / Teleportacja",
     "Description": "«Bohater» przechodzi do sąsiedniej lokacji («Lokacja_B»).",
