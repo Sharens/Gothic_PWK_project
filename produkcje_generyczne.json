@@ -270,60 +270,7 @@
     }
   ]
 },
-  {
-    "Title": "Fight ending with character’s escape / Walka zakończona ucieczką uczestnika",
-    "TitleGeneric": "Location change / Zmiana lokacji",
-    "Description": "Jeden bohater («BohaterA») atakuje drugiego («BohaterB»), który ucieka do sąsiedniej lokacji («LokacjaB»), gubiąc wszystkie swoje przedmioty w panicznej ucieczce.",
-    "Override": 0,
-    "LSide": {
-      "Locations": [
-        {
-          "Id": "LokacjaA",
-          "Attributes": {},
-          "Characters": [
-            {
-              "Id": "BohaterA",
-              "IsObject": true,
-              "Attributes": {},
-              "Characters": [],
-              "Items": []
-            },
-            {
-              "Id": "BohaterB",
-              "IsObject": true,
-              "Attributes": {},
-              "Characters": [],
-              "Items": []
-            }
-          ],
-          "Items": [],
-          "Connections": [
-            {
-              "Destination": "LokacjaB"
-            }
-          ]
-        },
-        {
-          "Id": "LokacjaB",
-          "Connections": []
-        }
-      ]
-    },
-    "RSide": {},
-    "Instructions": [
-      {
-        "Op": "move",
-        "Nodes": "BohaterB/Items/*",
-        "To": "LokacjaA/Items"
-      },
-      {
-        "Op": "move",
-        "Nodes": "BohaterB",
-        "To": "LokacjaB/Characters"
-      }
-    ]
-  },
-  {
+{
     "Title": "Location change while being ill / Zmiana lokacji będąc chorym",
     "TitleGeneric": "Location change / Zmiana lokacji",
     "Description": "«Bohater» przechodzi do sąsiedniej lokacji («Lokacja_B»). Z powodu choroby traci siły.",
