@@ -270,7 +270,7 @@
     }
   ]
 },
-{
+  {
     "Title": "Location change while being ill / Zmiana lokacji będąc chorym",
     "TitleGeneric": "Location change / Zmiana lokacji",
     "Description": "«Bohater» przechodzi do sąsiedniej lokacji («Lokacja_B»). Z powodu choroby traci siły.",
@@ -732,48 +732,6 @@
           "Op": "move",
           "Nodes": "BohaterB",
           "To": "Somewhere/Characters"
-        }
-      ]
-},{
-    "Title": "Getting into item / Umieszczanie bohatera wewnątrz przedmiotu",
-    "TitleGeneric": "",
-    "Description": "«BohaterA» wchodzi do przedmiotu («Opakowanie»).",
-    "Override": 0,
-    "LSide": {
-      "Locations": [
-        {
-          "Id": "Somewhere",
-          "Attributes": {},
-          "Characters": [
-            {
-              "Id": "BohaterA",
-              "IsObject": true,
-              "Attributes": {},
-              "Characters": [],
-              "Items": []
-            }
-          ],
-          "Items": [
-            {
-              "Id": "Opakowanie",
-              "Attributes": {
-              },
-              "Characters": [
-
-              ],
-              "Items": [
-              ]
-            }
-            ]
-          }
-        ]
-      },
-      "RSide": {},
-      "Instructions": [
-        {
-          "Op": "move",
-          "Nodes": "BohaterB",
-          "To": "Opakowanie/Characters"
         }
       ]
 },
@@ -2392,11 +2350,11 @@
     "LSide": {
       "Locations": [
         {
-          "Id": "Somewhere",
+          "Id": "Anywhere",
           "Attributes": {},
           "Characters": [
             {
-              "Id": "CharacterA",
+              "Name": "Bezimienny",
               "IsObject": true,
               "Attributes": {},
               "Characters": [],
@@ -2413,7 +2371,7 @@
               ]
             },
             {
-              "Id": "CharacterB",
+              "Name": "Przywodca Palladynow",
               "Attributes": {},
               "Characters": [],
               "Items": []
