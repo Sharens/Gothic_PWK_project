@@ -34,7 +34,8 @@
         }
   
       ]
-    },{
+    },
+    {
       "Title": "Picking up Ore / Podniesienie Rudy",
       "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
       "Description": "Bezimienny podnosi przedmiot Ruds leżący w lokacji.",
