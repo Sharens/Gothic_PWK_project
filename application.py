@@ -25,19 +25,22 @@ dir_name = ''
 json_path = f'{path_root}/{dir_name}'
 jsons_OK, jsons_schema_OK, errors, warnings = get_jsons_storygraph_validated(json_path)
 
-print(f"# jsons_OK: {jsons_OK} \n\n")
-print(f"# jsons_schema_OK: {jsons_schema_OK} \n\n")
-print(f"# errors: {errors} \n\n")
-print(f"# warnings: {warnings} \n\n")
+# print(f"# jsons_OK: {jsons_OK} \n\n")
+# print(f"# jsons_schema_OK: {jsons_schema_OK} \n\n")
+# print(f"# errors: {errors} \n\n")
+# print(f"# warnings: {warnings} \n\n")
 
 # ######################################################
 # definicje
 # definiowanie świata
 world_name = 'GothicWorld'  # quest2023_6_01_world_Potion_for_Triss #'world_DragonStory'   #   #'world_RumcajsStory'
 # definiowanie misji
-quest_names = ['produkcje_Gothic']  # 'quest2023_6_01_Potion_for_Triss''quest_RumcajsStory_close'
+quest_names = ['produkcje_Gothic']   # 'quest2023_6_01_Potion_for_Triss''quest_RumcajsStory_close'
 # diagram projektowy misji Nie jest niezbędny, można przypisać mu None
 diagram_file_path = find_file(json_path, f'{quest_names[0].split("_", 1)[0]}_diagram_{quest_names[0].split("_", 1)[-1]}.drawio')
+# print(find_file(json_path, f'Gothic/diagram_fabuly_26_01_25_vol2.drawio'))
+# diagram_file_path = find_file(json_path, f'Gothic/diagram_fabuly_26_01_25_vol2.drawio')
+
 # diagram_file_path = find_file(json_path, f'quest2023-13_DragonStory.drawio')
 # diagram_file_path = json_path + '/q2022-01/zespół 11/quest2023-11_diagram_Going_under_the_skin.drawio'
 
@@ -47,13 +50,13 @@ if not diagram_file_path:
         exit()
 quest_automatic_names = []  # 'quest2023-09_automatic', 'quest2023-06_automatic'
 # definiowanie głównego bohatera (można podać Id)
-character_name = 'Main_hero'  # 'Rumcajs''Main_hero'
+character_name = 'Bezimienny'  # 'Rumcajs''Main_hero'
 # ######################################################
 
 
 
 # świat z naszego katalogu
-print(f"get_quest_nr: {get_quest_nr(world_name, jsons_schema_OK)}")
+# print(f"get_quest_nr: {get_quest_nr(world_name, jsons_schema_OK)}")
 world_source = jsons_schema_OK[get_quest_nr(world_name, jsons_schema_OK)]
 
 # świat z innego źródła
@@ -85,8 +88,8 @@ quest_description = get_quest_description(quest_names[0] or '')
 prod_chars_turn_names = ['produkcje_generyczne', *quest_names]
 prod_world_turn_names = [*quest_automatic_names, 'produkcje_automatyczne', 'produkcje_automatyczne_wygrywania']
 
-print(f"#### prod_chars_turn_names: {prod_chars_turn_names}")
-print(f"#### prod_world_turn_names: {prod_world_turn_names}")
+# print(f"#### prod_chars_turn_names: {prod_chars_turn_names}")
+# print(f"#### prod_world_turn_names: {prod_world_turn_names}")
 
 
 prod_chars_turn_jsons = [deepcopy(jsons_schema_OK[get_quest_nr(x,jsons_schema_OK)]['json']) for x in prod_chars_turn_names]
