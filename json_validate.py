@@ -81,8 +81,3 @@ for mission in jsons_sg_validated:
             d_dir = f'{json_path}{os.sep}aktualne wizualizacje{os.sep}{mission["file_path"].rsplit(os.sep, 1)[0]}{os.sep}'
             d_file = f'{production["Title"].split(" / ")[0]}'
             draw_graph(production["LSide"], d_title, d_desc, d_file, d_dir, w=d_w, draw_id=draw_id)
-
-
-
-
-
