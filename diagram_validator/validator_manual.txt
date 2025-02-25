@@ -1,0 +1,43 @@
+Skrypt znajdujący niektóre błędy na rysunkach. Skrypt jest dopiero testowany, więc proszę zgłaszać błędne działanie. Możliwe, że przy liczegiu argumentów w produkcjach generycznych pojawią się błędy
+
+WYMAGANIA:
+    żeby uruchomić skrypt należy umieścić rysunek (.drawio lub .xml) i wlasne produkcje(.json) pod ścieżkami podanymi w argumentach --drawing i --detailed
+
+URUCHOMIENIE (należy podstawić ścieżkę swojego pliku z rysunkiem w miejsce example.drawio):
+
+        python3 validator.py --drawing=example.drawio --detailed=detailed_prods.json
+
+JAK ROZUMIEĆ WYNIKI:
+
+    Wyniki różnych walidacji są zapisywane w formacie:
+        WARNING/ERROR
+            Element przy którym znaleziono problem
+            opis problemu
+
+    WARNING - ostrzeżenie, które należy samodzielnie sprawdzić, najczęściej w elementach, które ciężko zweryfikować skryptem. Jeśli ostrzeżenie jest niesłuszne to można je spokojnie zignorować
+
+    ERROR - błąd, który należy skorygować
+
+    Jeśli jakieś sprawdzenie zostało pominięte, to zazwyczaj z powodu złego typu wierchołka grafu (np. zły kształt - rhombus)
+
+TYPOWE BŁĘDY
+
+    1. Produkcja / miejsce / przedmiot wyglądają poprawnie, ale są wskazywane jako nieobecne na liście.
+        Powód: zły apostrof, niedokładne przepisanie nazwy produkcji lub argumentów ( najlepiej je skopiować z listy, a nie wpisywać ręcznie),
+
+        np. Wizard's_hut zamiast Wizards_hut w argumencie
+
+    2. Niepotrzebny średnik na końcu produkcji szczegółowej ( zielonej )
+
+    3. Kolor spoza głównej palety
+
+    4. Typ produkcji nie został rozpoznany
+        Powody mogą być różne:
+            niedozwolony znak dla typu produkcji, zły format, nadmiar białych znaków
+
+    5. Zły kształt produkcji (np. rhombus) lub opisy na krawędziach
+
+    6. Krawędzie nie są dołączone do wierzchołków - nie  można czasem przez to dojść do końca
+
+
+
