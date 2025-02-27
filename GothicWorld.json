@@ -27,15 +27,17 @@
 		}, {
 			"Id": "002",
 			"Name": "Kopalnia",
-			"Connections": [ 
-                { "Destination": "001" },
+			"Connections": [
                 { "Destination": "003" },
-                { "Destination": "009" },
-                { "Destination": "001" }    
+                { "Destination": "008" },
+				{ "Destination": "011" }
             ],
 			"Characters": [
 				{ "Name": "Kelsier" },
-                {"Name": "Bandyci"}
+                {"Name": "Bandyci",
+				"Attributes": {
+						"HP": 20
+					}}
 			],
 			"Items":[   
                 {"Name" : "Moc Atium"},
@@ -127,11 +129,15 @@
 			"Connections": [
 				{ "Destination": "001" },
 				{ "Destination": "009" },
-                {"Destination": "011"}
+				{ "Destination": "011" }
 			],
             "Characters": [
                 {"Name": "Lee"},
-                {"Name": "Bullco"}
+                {"Name": "Bullco",
+				"Attributes": {
+						"HP": 15
+					}
+				}
             ],
             "Items": [
                 {"Name": "List"}
@@ -150,6 +156,7 @@
 			"Id": "011",
 			"Name": "Oboz Magow",
 			"Connections": [
+				{ "Destination": "006" },
 				{ "Destination": "008" }
 			],
             "Characters": [
