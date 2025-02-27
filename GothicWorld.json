@@ -39,26 +39,35 @@
 						"HP": 20
 					}}
 			],
-			"Items":[   
-                {"Name" : "Moc Atium"},
-                {"Name": "Ruda"}
+			"Items":[
+                {"Name" : "Moc Atium",
+				"Attributes":{
+                               "NutritionalValue": 200
+                            }},
+                {"Name": "Ruda",
+					"Attributes":{
+                               "Value": 10
+                            }}
             ]
 		}, {
 			"Id": "003",
 			"Name": "Gornicza Dolina",
 			"Connections": [
 				{ "Destination": "002" },
-                { "Destination": "005" }, 
-                {"Destination": "006"},
+                { "Destination": "005" },
                 {"Destination": "001"},
-                {"Destination": "007"}
-				
+                {"Destination": "007"},
+				{"Destination": "007"}
+
 			],
 			"Characters": [
                 {"Name": "Czarny Przemytnik"},
 			    {"Name": "Orkowie"}
 			],
-            "Items": [{"Name": "Oko Innosa"}]
+            "Items": [{"Name": "Oko Innosa",
+						"Attributes":{
+                               "NutritionalValue": 250
+                            }}]
 		}, {
 			"Id": "004",
 			"Name": "Kuznia Atium",
@@ -70,7 +79,10 @@
                 {"Name": "Kelsier"}
             ],
             "Items": [
-                {"Name": "Pierscien Kelsiera"}
+                {"Name": "Pierscien Kelsiera",
+					"Attributes":{
+                               "NutritionalValue": 100
+                            }}
             ]
 		}, {
 			"Id": "005",
@@ -83,7 +95,10 @@
                 {"Name": "Feruchemik"}
             ],
             "Items": [
-                {"Name" : "Amulet"}
+                {"Name" : "Amulet",
+					"Attributes":{
+                               "NutritionalValue": 50
+                            }}
             ]
 		}, {
 			"Id": "006",
@@ -91,7 +106,6 @@
 			"Connections": [
 				{ "Destination": "005" },
 				{ "Destination": "004" },
-                { "Destination": "003"},
                 { "Destination": "011"}
 			],
 			"Items": [
@@ -104,9 +118,9 @@
 			],
             "Characters": [
                 {
-					"Name": "Smog",
+					"Name": "Smok Gromu",
 					"Attributes": {
-						"HP": 100
+						"HP": 300
 					}
 			}
             ]
@@ -116,7 +130,7 @@
 			"Connections": [
 				{ "Destination": "001" },
 				{ "Destination": "003" }
-                
+
 			],
             "Characters": [
                 {"Name": "Buntownik"},
@@ -140,7 +154,10 @@
 				}
             ],
             "Items": [
-                {"Name": "List"}
+                {"Name": "List mocy",
+					"Attributes":{
+                               "NutritionalValue": 100
+                            }}
             ]
 		}, {
 			"Id": "009",
