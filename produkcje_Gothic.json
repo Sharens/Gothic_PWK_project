@@ -3,11 +3,11 @@
       "Title": "Overwhelming Wizard / Przejęcie kontroli nad Magiem",
       "TitleGeneric": "Overwhelming character / Przejęcie kontroli nad postacią",
       "Description": "Stworzenie grupy z dwóch bohaterów: <<Bezimienny>> przejmuje kontrolę nad inną Mag Wody.",
-      "Override": 0,
+      "Override": 1,
       "LSide": {
         "Locations": [
           {
-            "Id": "Anywhere",
+            "Id": "003",
             "Characters": [
               {
                 "Name": "Bezimienny",
@@ -38,16 +38,16 @@
     {
       "Title": "Picking up Ore / Podniesienie Rudy",
       "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
-      "Description": "Bezimienny podnosi przedmiot Ruds leżący w lokacji.",
-      "Override": 0,
+      "Description": "Bezimienny podnosi przedmiot Ruda leżący w lokacji.",
+      "Override": 2,
       "LSide": {
         "Locations": [
           {
-            "Name": "Górnicza Dolina",
+            "Name": "Gornicza Dolina",
             "Attributes": {},
             "Characters": [
               {
-                "Name": "Bezimienny",
+                "Id": "Bezimienny",
                 "IsObject": true,
                 "Attributes": {},
                 "Characters": [],
@@ -56,7 +56,7 @@
             ],
             "Items": [
               {
-                "Id": "Ore",
+                "Name": "Ore",
                 "Attributes": {},
                 "Characters": [],
                 "Items": []
@@ -71,11 +71,63 @@
           "Op": "move",
           "Nodes": "Ore",
           "To": "Bezimienny/Items"
+        },
+        {
+          "Op": "set",
+          "Attribute": "Bezimienny.HP",
+          "Expr": "Bezimienny.HP + 100"
         }
       ],
       "Preconditions": [
       ]
-    },{
+    },
+    {
+      "Title": "Picking up Ring / Podniesienie Pierścienia",
+      "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
+      "Description": "Bezimienny podnosi przedmiot leżący w lokacji.",
+      "Override": 2,
+      "LSide": {
+        "Locations": [
+          {
+            "Name": "Plac_zamkowy",
+            "Attributes": {},
+            "Characters": [
+              {
+                "Id": "Bezimienny",
+                "IsObject": true,
+                "Attributes": {},
+                "Characters": [],
+                "Items": []
+              }
+            ],
+            "Items": [
+              {
+                "Name": "Pierscien Kelsiera",
+                "Attributes": {},
+                "Characters": [],
+                "Items": []
+              }
+            ]
+          }
+        ]
+      },
+      "RSide": {},
+      "Instructions": [
+        {
+          "Op": "move",
+          "Nodes": "Pierscien Kelsiera",
+          "To": "Bezimienny/Items"
+        },
+        {
+          "Op": "set",
+          "Attribute": "Bezimienny.HP",
+          "Expr": "Bezimienny.HP + 100"
+        }
+      ],
+      "Preconditions": [
+      ]
+    },
+    {
         "Title": "Getting Knowledge from Wizard / Zyskanie wiedzy od Maga Wody ",
         "TitleGeneric": "Getting knowledge from conversation / Rozmowa z przekazaniem informacji",
         "Description": "Przekazanie informacji Bezimienny od Mag Wody.",
