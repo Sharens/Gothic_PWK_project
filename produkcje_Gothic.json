@@ -1,179 +1,324 @@
 [
-    {
-      "Title": "Overwhelming Wizard / Przejęcie kontroli nad Magiem",
-      "TitleGeneric": "Overwhelming character / Przejęcie kontroli nad postacią",
-      "Description": "Stworzenie grupy z dwóch bohaterów: <<Bezimienny>> przejmuje kontrolę nad inną Mag Wody.",
-      "Override": 1,
-      "LSide": {
-        "Locations": [
-          {
-            "Id": "003",
-            "Characters": [
-              {
-                "Name": "Bezimienny",
-                "IsObject": true
-              },
-              {
-                "Name": "Mag_Wody"
-              }
-            ]
-          }
-        ]
-      },
-      "RSide": {},
-      "Instructions": [
+  {
+    "Title": "Picking up Ore / Podniesienie Rudy",
+    "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
+    "Description": "Bezimienny podnosi przedmiot Ruda leżący w lokacji.",
+    "Override": 2,
+    "LSide": {
+      "Locations": [
         {
-          "Op": "move",
-          "Nodes": "Mag_Wody",
-          "To": "Bezimienny/Characters"
-        }
-      ],
-      "Preconditions": [
-        {
-          "Cond":"Bezimienny.Knowledge != null"
-        }
-  
-      ]
-    },
-    {
-      "Title": "Picking up Ore / Podniesienie Rudy",
-      "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
-      "Description": "Bezimienny podnosi przedmiot Ruda leżący w lokacji.",
-      "Override": 2,
-      "LSide": {
-        "Locations": [
-          {
-            "Name": "Gornicza Dolina",
-            "Attributes": {},
-            "Characters": [
-              {
-                "Id": "Bezimienny",
-                "IsObject": true,
-                "Attributes": {},
-                "Characters": [],
-                "Items": []
-              }
-            ],
-            "Items": [
-              {
-                "Name": "Ore",
-                "Attributes": {},
-                "Characters": [],
-                "Items": []
-              }
-            ]
-          }
-        ]
-      },
-      "RSide": {},
-      "Instructions": [
-        {
-          "Op": "move",
-          "Nodes": "Ore",
-          "To": "Bezimienny/Items"
-        },
-        {
-          "Op": "set",
-          "Attribute": "Bezimienny.HP",
-          "Expr": "Bezimienny.HP + 100"
-        }
-      ],
-      "Preconditions": [
-      ]
-    },
-    {
-      "Title": "Picking up Ring / Podniesienie Pierścienia",
-      "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
-      "Description": "Bezimienny podnosi przedmiot leżący w lokacji.",
-      "Override": 2,
-      "LSide": {
-        "Locations": [
-          {
-            "Name": "Plac_zamkowy",
-            "Attributes": {},
-            "Characters": [
-              {
-                "Id": "Bezimienny",
-                "IsObject": true,
-                "Attributes": {},
-                "Characters": [],
-                "Items": []
-              }
-            ],
-            "Items": [
-              {
-                "Name": "Pierscien Kelsiera",
-                "Attributes": {},
-                "Characters": [],
-                "Items": []
-              }
-            ]
-          }
-        ]
-      },
-      "RSide": {},
-      "Instructions": [
-        {
-          "Op": "move",
-          "Nodes": "Pierscien Kelsiera",
-          "To": "Bezimienny/Items"
-        },
-        {
-          "Op": "set",
-          "Attribute": "Bezimienny.HP",
-          "Expr": "Bezimienny.HP + 100"
-        }
-      ],
-      "Preconditions": [
-      ]
-    },
-    {
-        "Title": "Getting Knowledge from Wizard / Zyskanie wiedzy od Maga Wody ",
-        "TitleGeneric": "Getting knowledge from conversation / Rozmowa z przekazaniem informacji",
-        "Description": "Przekazanie informacji Bezimienny od Mag Wody.",
-        "Override": 1,
-        "LSide": {
-          "Locations": [
+          "Name": "Gornicza Dolina",
+          "Attributes": {},
+          "Characters": [
             {
-              "Name": "Obóz Magów",
+              "Id": "Bezimienny",
+              "IsObject": true,
               "Attributes": {},
-              "Characters": [
-                {
-                  "Name": "Mag_Wody",
-                  "IsObject": true,
-                  "Attributes": {},
-                  "Characters": [],
-                  "Items": [],
-                  "Narration": [
-                    {
-                      "Name": "Wizard_knowledge",
-                      "Attributes": {
-                        "Knowledge": "Wizard will join you with killing Dragon/ Mag przyłącza się do Ciebie aby zabić smoka."
-                      },
-                      "Characters": [],
-                      "Items": []
-                    }
-                  ]
-                },
-                {
-                  "Name": "Bezimienny",
-                  "Attributes": {},
-                  "Characters": []
-                }
-              ],
-              "Items": [],
-              "Connections": []
+              "Characters": [],
+              "Items": []
+            }
+          ],
+          "Items": [
+            {
+              "Name": "Ore",
+              "Attributes": {},
+              "Characters": [],
+              "Items": []
             }
           ]
-        },
-        "RSide": {},
-        "Preconditions": [],
-        "Instructions": [
+        }
+      ]
+    },
+    "RSide": {},
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "Ore",
+        "To": "Bezimienny/Items"
+      },
+      {
+        "Op": "set",
+        "Attribute": "Bezimienny.HP",
+        "Expr": "Bezimienny.HP + 100"
+      }
+    ],
+    "Preconditions": [
+    ]
+  },
+  {
+    "Title": "Picking up Ring / Podniesienie Pierścienia",
+    "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
+    "Description": "Bezimienny podnosi przedmiot leżący w lokacji.",
+    "Override": 2,
+    "LSide": {
+      "Locations": [
+        {
+          "Name": "Kuznia Atium",
+          "Attributes": {},
+          "Characters": [
+            {
+              "Id": "Bezimienny",
+              "IsObject": true,
+              "Attributes": {},
+              "Characters": [],
+              "Items": []
+            }
+          ],
+          "Items": [
+            {
+              "Name": "Pierscien Kelsiera",
+              "Attributes": {},
+              "Characters": [],
+              "Items": []
+            }
+          ]
+        }
+      ]
+    },
+    "RSide": {},
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "Pierscien Kelsiera",
+        "To": "Bezimienny/Items"
+      },
+      {
+        "Op": "set",
+        "Attribute": "Bezimienny.HP",
+        "Expr": "Bezimienny.HP + 100"
+      }
+    ],
+    "Preconditions": [
+    ]
+  },
+  {
+    "Title": "Picking up Amulet / Podniesienie Amuletu",
+    "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
+    "Description": "Bezimienny podnosi przedmiot leżący w lokacji.",
+    "Override": 2,
+    "LSide": {
+      "Locations": [
+        {
+          "Name": "Chatka Feruchemika",
+          "Attributes": {},
+          "Characters": [
+            {
+              "Id": "Bezimienny",
+              "IsObject": true,
+              "Attributes": {},
+              "Characters": [],
+              "Items": []
+            }
+          ],
+          "Items": [
+            {
+              "Name": "Amulet",
+              "Attributes": {},
+              "Characters": [],
+              "Items": []
+            }
+          ]
+        }
+      ]
+    },
+    "RSide": {},
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "Amulet",
+        "To": "Bezimienny/Items"
+      },
+      {
+        "Op": "set",
+        "Attribute": "Bezimienny.HP",
+        "Expr": "Bezimienny.HP + 100"
+      }
+    ],
+    "Preconditions": [
+    ]
+  },
+  {
+    "Title": "Picking up Letter of Power / Podniesienie Listu Mocy",
+    "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
+    "Description": "Bezimienny podnosi przedmiot leżący w lokacji.",
+    "Override": 2,
+    "LSide": {
+      "Locations": [
+        {
+          "Name": "Oboz",
+          "Attributes": {},
+          "Characters": [
+            {
+              "Id": "Bezimienny",
+              "IsObject": true,
+              "Attributes": {},
+              "Characters": [],
+              "Items": []
+            }
+          ],
+          "Items": [
+            {
+              "Name": "List mocy",
+              "Attributes": {},
+              "Characters": [],
+              "Items": []
+            }
+          ]
+        }
+      ]
+    },
+    "RSide": {},
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "List mocy",
+        "To": "Bezimienny/Items"
+      },
+      {
+        "Op": "set",
+        "Attribute": "Bezimienny.HP",
+        "Expr": "Bezimienny.HP + 100"
+      }
+    ],
+    "Preconditions": [
+    ]
+  },
+  {
+    "Title": "Picking up Power of Atium / Podniesienie Mocy Atium",
+    "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
+    "Description": "Bezimienny podnosi przedmiot leżący w lokacji.",
+    "Override": 2,
+    "LSide": {
+      "Locations": [
+        {
+          "Name": "Kopalnia",
+          "Attributes": {},
+          "Characters": [
+            {
+              "Id": "Bezimienny",
+              "IsObject": true,
+              "Attributes": {},
+              "Characters": [],
+              "Items": []
+            }
+          ],
+          "Items": [
+            {
+              "Name": "Moc Atium",
+              "Attributes": {},
+              "Characters": [],
+              "Items": []
+            }
+          ]
+        }
+      ]
+    },
+    "RSide": {},
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "Moc Atium",
+        "To": "Bezimienny/Items"
+      },
+      {
+        "Op": "set",
+        "Attribute": "Bezimienny.HP",
+        "Expr": "Bezimienny.HP + 100"
+      }
+    ],
+    "Preconditions": [
+    ]
+  },
+  {
+    "Title": "Picking up Innos Eye / Podniesienie Oka Innosa",
+    "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
+    "Description": "Bezimienny podnosi przedmiot leżący w lokacji.",
+    "Override": 2,
+    "LSide": {
+      "Locations": [
+        {
+          "Name": "Ukryta Jaskinia",
+          "Attributes": {},
+          "Characters": [
+            {
+              "Id": "Bezimienny",
+              "IsObject": true,
+              "Attributes": {},
+              "Characters": [],
+              "Items": []
+            }
+          ],
+          "Items": [
+            {
+              "Name": "Oko Innosa",
+              "Attributes": {},
+              "Characters": [],
+              "Items": []
+            }
+          ]
+        }
+      ]
+    },
+    "RSide": {},
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "Oko Innosa",
+        "To": "Bezimienny/Items"
+      },
+      {
+        "Op": "set",
+        "Attribute": "Bezimienny.HP",
+        "Expr": "Bezimienny.HP + 100"
+      }
+    ],
+    "Preconditions": [
+    ]
+  },
+  {
+      "Title": "Wizard casts a protective spell / Mag rzuca zaklęcie ochronne ",
+      "TitleGeneric": "Turning an item into a character’s attribute / Przekształcenie przedmiotu w atrybut bohatera",
+      "Description": "Rzucenie zaklęcia na Bezimiennego przez Maga.",
+      "Override": 0,
+      "LSide": {
+        "Locations": [
           {
-            "Op": "copy",
-            "To": "Bezimienny/Narration",
-            "Nodes": "Wizard_knowledge"
+            "Name": "Oboz Magow",
+            "Attributes": {},
+            "Characters": [
+              {
+                "Id": "Bezimienny",
+                "IsObject": true,
+                "Attributes": {},
+                "Characters": [],
+                "Items": [
+                  {
+                    "Id": "List Mocy",
+                    "Attributes": {},
+                    "Characters": [],
+                    "Items": []
+                  }
+
+                ]
+              }
+            ],
+            "Items": [],
+            "Connections": []
           }
         ]
-      }
-  ]
+      },
+      "RSide": {},
+      "Preconditions": [],
+      "Instructions": [
+        {
+          "Op": "set",
+          "Attribute": "Bezimienny.HP",
+          "Expr": "Bezimienny.HP + 100"
+        },{
+          "Op": "move",
+          "Nodes": "List mocy",
+          "To": "Mag Wody/Items"
+        }
+      ]
+    }
+]
