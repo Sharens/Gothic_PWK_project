@@ -40,10 +40,7 @@
 					}}
 			],
 			"Items":[
-                {"Name" : "Moc Atium",
-				"Attributes":{
-                               "NutritionalValue": 200
-                            }},
+                {"Name" : "Moc Atium"},
                 {"Name": "Ruda",
 					"Attributes":{
                                "Value": 10
@@ -64,10 +61,8 @@
                 {"Name": "Czarny Przemytnik"},
 			    {"Name": "Orkowie"}
 			],
-            "Items": [{"Name": "Oko Innosa",
-						"Attributes":{
-                               "NutritionalValue": 250
-                            }}]
+            "Items": [
+			{"Name": "Ore"}]
 		}, {
 			"Id": "004",
 			"Name": "Kuznia Atium",
@@ -95,10 +90,7 @@
                 {"Name": "Feruchemik"}
             ],
             "Items": [
-                {"Name" : "Amulet",
-					"Attributes":{
-                               "NutritionalValue": 50
-                            }}
+                {"Name" : "Amulet"}
             ]
 		}, {
 			"Id": "006",
@@ -126,11 +118,14 @@
             ]
 		}, {
 			"Id": "007",
-			"Name": "Ukryta Jaskinia",
+			"Name": "0",
 			"Connections": [
 				{ "Destination": "001" },
 				{ "Destination": "003" }
 
+			],
+			"Items": [
+				{"Name": "Oko Innosa"}
 			],
             "Characters": [
                 {"Name": "Buntownik"},
@@ -154,10 +149,7 @@
 				}
             ],
             "Items": [
-                {"Name": "List mocy",
-					"Attributes":{
-                               "NutritionalValue": 100
-                            }}
+                {"Name": "List mocy"}
             ]
 		}, {
 			"Id": "009",
