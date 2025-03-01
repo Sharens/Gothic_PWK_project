@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram id="rkxneIpJQOFQeqjlJjRi" name="DiagramFabuly">
-    <mxGraphModel dx="2412" dy="2009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1918" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,16 +38,10 @@
         <mxCell id="wIxRWUz_mLLFGNtNrPbb-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=center;fillColor=#fff2cc;strokeWidth=1;strokeColor=#d6b656;container=0;" parent="1" vertex="1">
           <mxGeometry x="986" y="1490" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--19" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1006" y="260" as="sourcePoint" />
-            <mxPoint x="1006" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zkXEyK3gHYX9UNPN8YG--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--2" target="zkXEyK3gHYX9UNPN8YG--5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GhO89Z5Zg2I-rU7ogqVO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zkXEyK3gHYX9UNPN8YG--2" target="zkXEyK3gHYX9UNPN8YG--9">
+        <mxCell id="GhO89Z5Zg2I-rU7ogqVO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--2" target="zkXEyK3gHYX9UNPN8YG--9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zkXEyK3gHYX9UNPN8YG--2" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font face=&quot;arial&quot;&gt;&lt;span&gt;Location change / Zmiana lokacji; (Bezimienny, Las pod miastem)&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;container=0;fontSize=14;" parent="1" vertex="1">
@@ -56,14 +50,14 @@
         <mxCell id="zkXEyK3gHYX9UNPN8YG--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--5" target="zkXEyK3gHYX9UNPN8YG--6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GhO89Z5Zg2I-rU7ogqVO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zkXEyK3gHYX9UNPN8YG--5" target="zkXEyK3gHYX9UNPN8YG--9">
+        <mxCell id="GhO89Z5Zg2I-rU7ogqVO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--5" target="zkXEyK3gHYX9UNPN8YG--9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="600" y="172" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GhO89Z5Zg2I-rU7ogqVO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zkXEyK3gHYX9UNPN8YG--5" target="L8YZ8_fF07wdOiWUrEbG-129">
+        <mxCell id="GhO89Z5Zg2I-rU7ogqVO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--5" target="L8YZ8_fF07wdOiWUrEbG-129" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="600" y="460" />
@@ -107,6 +101,9 @@
         </mxCell>
         <mxCell id="zkXEyK3gHYX9UNPN8YG--17" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Picking up Power of Atium / Podniesienie Mocy Atium; (Kopalnia, Bezimienny, Moc Atium)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="876" y="60" width="260" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="5CFAHa058vNO2D1lep83-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zkXEyK3gHYX9UNPN8YG--19" target="zkXEyK3gHYX9UNPN8YG--20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zkXEyK3gHYX9UNPN8YG--19" value="Location change / Zmiana lokacji; (Bezimienny, Gornicza Dolina)" style="rounded=0;whiteSpace=wrap;html=1;align=center;container=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="876" y="210" width="260" height="40" as="geometry" />
