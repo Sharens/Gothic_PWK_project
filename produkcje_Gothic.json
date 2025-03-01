@@ -42,8 +42,7 @@
         "Expr": "Bezimienny.HP + 100"
       }
     ],
-    "Preconditions": [
-    ]
+    "Preconditions": []
   },
   {
     "Title": "Picking up Ring / Podniesienie Pierścienia",
@@ -88,8 +87,7 @@
         "Expr": "Bezimienny.HP + 100"
       }
     ],
-    "Preconditions": [
-    ]
+    "Preconditions": []
   },
   {
     "Title": "Picking up Amulet / Podniesienie Amuletu",
@@ -134,8 +132,7 @@
         "Expr": "Bezimienny.HP + 100"
       }
     ],
-    "Preconditions": [
-    ]
+    "Preconditions": []
   },
   {
     "Title": "Picking up Letter of Power / Podniesienie Listu Mocy",
@@ -180,8 +177,7 @@
         "Expr": "Bezimienny.HP + 100"
       }
     ],
-    "Preconditions": [
-    ]
+    "Preconditions": []
   },
   {
     "Title": "Picking up Power of Atium / Podniesienie Mocy Atium",
@@ -226,8 +222,7 @@
         "Expr": "Bezimienny.HP + 100"
       }
     ],
-    "Preconditions": [
-    ]
+    "Preconditions": []
   },
   {
     "Title": "Picking up Innos Eye / Podniesienie Oka Innosa",
@@ -272,53 +267,52 @@
         "Expr": "Bezimienny.HP + 100"
       }
     ],
-    "Preconditions": [
-    ]
+    "Preconditions": []
   },
   {
-      "Title": "Wizard casts a protective spell / Mag rzuca zaklęcie ochronne ",
-      "TitleGeneric": "Turning an item into a character’s attribute / Przekształcenie przedmiotu w atrybut bohatera",
-      "Description": "Rzucenie zaklęcia na Bezimiennego przez Maga.",
-      "Override": 0,
-      "LSide": {
-        "Locations": [
-          {
-            "Name": "Oboz Magow",
-            "Attributes": {},
-            "Characters": [
-              {
-                "Id": "Bezimienny",
-                "IsObject": true,
-                "Attributes": {},
-                "Characters": [],
-                "Items": [
-                  {
-                    "Id": "List Mocy",
-                    "Attributes": {},
-                    "Characters": [],
-                    "Items": []
-                  }
-
-                ]
-              }
-            ],
-            "Items": [],
-            "Connections": []
-          }
-        ]
-      },
-      "RSide": {},
-      "Preconditions": [],
-      "Instructions": [
+    "Title": "Wizard casts a protective spell / Mag rzuca zaklęcie ochronne ",
+    "TitleGeneric": "Turning an item into a character’s attribute / Przekształcenie przedmiotu w atrybut bohatera",
+    "Description": "Rzucenie zaklęcia na Bezimiennego przez Maga.",
+    "Override": 0,
+    "LSide": {
+      "Locations": [
         {
-          "Op": "set",
-          "Attribute": "Bezimienny.HP",
-          "Expr": "Bezimienny.HP + 100"
-        },{
-          "Op": "move",
-          "Nodes": "List mocy",
-          "To": "Mag Wody/Items"
+          "Name": "Oboz Magow",
+          "Attributes": {},
+          "Characters": [
+            {
+              "Id": "Bezimienny",
+              "IsObject": true,
+              "Attributes": {},
+              "Characters": [],
+              "Items": [
+                {
+                  "Id": "List Mocy",
+                  "Attributes": {},
+                  "Characters": [],
+                  "Items": []
+                }
+              ]
+            }
+          ],
+          "Items": [],
+          "Connections": []
         }
       ]
-    }
+    },
+    "RSide": {},
+    "Preconditions": [],
+    "Instructions": [
+      {
+        "Op": "set",
+        "Attribute": "Bezimienny.HP",
+        "Value": 400
+      },
+      {
+        "Op": "move",
+        "Nodes": "List mocy",
+        "To": "Mag Wody/Items"
+      }
+    ]
+  }
 ]
