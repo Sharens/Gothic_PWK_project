@@ -1,128 +1,125 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram id="rkxneIpJQOFQeqjlJjRi" name="DiagramFabuly">
-    <mxGraphModel dx="1908" dy="2144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1908" dy="2330" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="L8YZ8_fF07wdOiWUrEbG-100" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontFamily=Helvetica;fontSize=14;strokeColor=none;container=0;" parent="1" vertex="1">
-          <mxGeometry x="866" y="-70" width="280" height="1820" as="geometry" />
+          <mxGeometry x="866" y="-70" width="280" height="1460" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L8YZ8_fF07wdOiWUrEbG-86" target="L8YZ8_fF07wdOiWUrEbG-108">
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L8YZ8_fF07wdOiWUrEbG-86" target="L8YZ8_fF07wdOiWUrEbG-108" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_W8T7ZiSsioaczAjbkDO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L8YZ8_fF07wdOiWUrEbG-86" target="27d6217f-3a86-4f00-b097-f3fae2b255d2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L8YZ8_fF07wdOiWUrEbG-86" value="&lt;font&gt;(Wyspa Khorinis, Q1)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;container=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="876" y="-170" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L8YZ8_fF07wdOiWUrEbG-108" target="17d66869-e933-474e-b108-589f3f7bf1f9">
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L8YZ8_fF07wdOiWUrEbG-108" target="17d66869-e933-474e-b108-589f3f7bf1f9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L8YZ8_fF07wdOiWUrEbG-108" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font face=&quot;arial&quot;&gt;&lt;span&gt;Location change / Zmiana lokacji; (Bezimienny, Kopalnia)&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;container=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="876" y="-40" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="L8YZ8_fF07wdOiWUrEbG-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L8YZ8_fF07wdOiWUrEbG-119" target="12mz_8oFqkP4Q2UUcGUV-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="1680" y="991.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L8YZ8_fF07wdOiWUrEbG-119" value="&lt;font face=&quot;arial&quot;&gt;&lt;span&gt;Overwhelming character / Przejęcie kontroli nad postacią; (Bezimienny, Feruchemik) &lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;container=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1550" y="820.5" width="260" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L8YZ8_fF07wdOiWUrEbG-129" target="a6fbca35-756a-41c0-a653-5ddc67351b63">
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L8YZ8_fF07wdOiWUrEbG-129" target="a6fbca35-756a-41c0-a653-5ddc67351b63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L8YZ8_fF07wdOiWUrEbG-129" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font face=&quot;arial&quot;&gt;&lt;span&gt;Location change / Zmiana lokacji;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: arial;&quot;&gt;(Bezimienny, Chatka Feruchemika)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;container=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="876" y="440" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wIxRWUz_mLLFGNtNrPbb-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=center;fillColor=#fff2cc;strokeWidth=1;strokeColor=#d6b656;container=0;" parent="1" vertex="1">
-          <mxGeometry x="986" y="1820" width="40" height="40" as="geometry" />
+          <mxGeometry x="986" y="1490" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wIxRWUz_mLLFGNtNrPbb-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=center;fillColor=#000000;container=0;" parent="1" vertex="1">
-          <mxGeometry x="710" y="1570" width="40" height="40" as="geometry" />
+          <mxGeometry x="730" y="1210" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="12mz_8oFqkP4Q2UUcGUV-4" value="&lt;font face=&quot;arial&quot;&gt;&lt;span&gt;Item acquisition from another character / Przejęcie przedmiotu od innej postaci; (Bezimienny, Feruchemik, Amulet)&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;align=center;container=0;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1550" y="986.5" width="260" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="17d66869-e933-474e-b108-589f3f7bf1f9" target="11fcf9cb-0b8d-45f0-bfec-e32302449f33">
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="17d66869-e933-474e-b108-589f3f7bf1f9" target="11fcf9cb-0b8d-45f0-bfec-e32302449f33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="17d66869-e933-474e-b108-589f3f7bf1f9" value="Picking up Power of Atium / Podniesienie Mocy Atium; (Kopalnia, Bezimienny, Moc Atium)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;fontSize=14;fontFamily=Helvetica;fillColor=#ffe6cc;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="876" y="60" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="11fcf9cb-0b8d-45f0-bfec-e32302449f33" target="c4147c2f-a102-4083-a200-da4e81a2349f">
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="11fcf9cb-0b8d-45f0-bfec-e32302449f33" target="c4147c2f-a102-4083-a200-da4e81a2349f" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="11fcf9cb-0b8d-45f0-bfec-e32302449f33" value="Location change / Zmiana lokacji; (Bezimienny, Gornicza Dolina)" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=14;fontFamily=Helvetica;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="876" y="200" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c4147c2f-a102-4083-a200-da4e81a2349f" target="L8YZ8_fF07wdOiWUrEbG-129">
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c4147c2f-a102-4083-a200-da4e81a2349f" target="L8YZ8_fF07wdOiWUrEbG-129" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c4147c2f-a102-4083-a200-da4e81a2349f" value="Picking up Ore / Podniesienie Rudy; (Gornicza Dolina, Bezimienny, Ore)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;fontSize=14;fontFamily=Helvetica;fillColor=#ffe6cc;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="876" y="320" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a6fbca35-756a-41c0-a653-5ddc67351b63" target="a5410294-706f-47fe-bb3f-9a59ac8f86b2">
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="a6fbca35-756a-41c0-a653-5ddc67351b63" target="a5410294-706f-47fe-bb3f-9a59ac8f86b2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a6fbca35-756a-41c0-a653-5ddc67351b63" value="Picking up Amulet / Podniesienie Amuletu; (Chatka Feruchemika, Bezimienny, Amulet)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;fontSize=14;fontFamily=Helvetica;fillColor=#ffe6cc;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="876" y="550" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a5410294-706f-47fe-bb3f-9a59ac8f86b2" target="eda781c6-d883-46ca-be7e-723138cbb1dc">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="a5410294-706f-47fe-bb3f-9a59ac8f86b2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1006" y="820.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="a5410294-706f-47fe-bb3f-9a59ac8f86b2" value="Location change / Zmiana lokacji; (Bezimienny, Ukryta Jaskinia)" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=14;fontFamily=Helvetica;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="876" y="680" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eda781c6-d883-46ca-be7e-723138cbb1dc" target="27d6217f-3a86-4f00-b097-f3fae2b255d2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eda781c6-d883-46ca-be7e-723138cbb1dc" value="Picking up Innos Eye / Podniesienie Oka Innosa; (Ukryta Jaskinia, Bezimienny, Oko Innosa)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;fontSize=14;fontFamily=Helvetica;fillColor=#ffe6cc;strokeColor=#006EAF;" parent="1" vertex="1">
-          <mxGeometry x="876" y="820.5" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="27d6217f-3a86-4f00-b097-f3fae2b255d2" target="20f150aa-9b44-49f9-b744-692551c5a3dd">
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="27d6217f-3a86-4f00-b097-f3fae2b255d2" target="20f150aa-9b44-49f9-b744-692551c5a3dd" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="27d6217f-3a86-4f00-b097-f3fae2b255d2" value="Location change / Zmiana lokacji; (Bezimienny, Oboz)" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=14;fontFamily=Helvetica;strokeColor=#006EAF;" parent="1" vertex="1">
-          <mxGeometry x="876" y="960" width="260" height="60" as="geometry" />
+          <mxGeometry x="1230" y="-60" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="20f150aa-9b44-49f9-b744-692551c5a3dd" target="b85960b2-d19c-4d88-a1d0-96b490294824">
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="20f150aa-9b44-49f9-b744-692551c5a3dd" target="b85960b2-d19c-4d88-a1d0-96b490294824" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="20f150aa-9b44-49f9-b744-692551c5a3dd" value="Picking up Letter of Power / Podniesienie Listu Mocy; (Oboz, Bezimienny, List mocy)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;fontSize=14;fontFamily=Helvetica;fillColor=#ffe6cc;strokeColor=#006EAF;" parent="1" vertex="1">
-          <mxGeometry x="876" y="1080" width="260" height="60" as="geometry" />
+          <mxGeometry x="1230" y="100" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b85960b2-d19c-4d88-a1d0-96b490294824" target="45088e13-6e24-4de9-a15c-0517335cff3d">
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b85960b2-d19c-4d88-a1d0-96b490294824" target="45088e13-6e24-4de9-a15c-0517335cff3d" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b85960b2-d19c-4d88-a1d0-96b490294824" value="Location change / Zmiana lokacji; (Bezimienny, Oboz Magow)" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=14;fontFamily=Helvetica;strokeColor=#006EAF;" parent="1" vertex="1">
-          <mxGeometry x="876" y="1200" width="260" height="60" as="geometry" />
+          <mxGeometry x="1230" y="240" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="45088e13-6e24-4de9-a15c-0517335cff3d" target="150d2f2c-e5d7-47c7-8557-95123b3f52c2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_W8T7ZiSsioaczAjbkDO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="45088e13-6e24-4de9-a15c-0517335cff3d" target="150d2f2c-e5d7-47c7-8557-95123b3f52c2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="1010" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="45088e13-6e24-4de9-a15c-0517335cff3d" value="Wizard casts a protective spell / Mag rzuca zaklęcie ochronne ; (Oboz Magow, Bezimienny, List mocy)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;fontSize=14;fontFamily=Helvetica;fillColor=#ffe6cc;strokeColor=#006EAF;" parent="1" vertex="1">
-          <mxGeometry x="876" y="1320" width="260" height="60" as="geometry" />
+          <mxGeometry x="1230" y="410" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="150d2f2c-e5d7-47c7-8557-95123b3f52c2" target="ca7a4b49-a945-4d06-a97b-e252dfc63ecb">
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="150d2f2c-e5d7-47c7-8557-95123b3f52c2" target="ca7a4b49-a945-4d06-a97b-e252dfc63ecb" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="150d2f2c-e5d7-47c7-8557-95123b3f52c2" value="Location change / Zmiana lokacji; (Bezimienny, Leze Smoka)" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=14;fontFamily=Helvetica;strokeColor=#006EAF;" parent="1" vertex="1">
-          <mxGeometry x="876" y="1440" width="260" height="60" as="geometry" />
+          <mxGeometry x="876" y="980" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ca7a4b49-a945-4d06-a97b-e252dfc63ecb" target="wIxRWUz_mLLFGNtNrPbb-11">
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ca7a4b49-a945-4d06-a97b-e252dfc63ecb" target="wIxRWUz_mLLFGNtNrPbb-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ca7a4b49-a945-4d06-a97b-e252dfc63ecb" value="Fight ending with character’s death / Walka zakończona śmiercią uczestnika; (Leze Smoka, Bezimienny, Smok Gromu)" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=14;fontFamily=Helvetica;strokeColor=#006EAF;" parent="1" vertex="1">
-          <mxGeometry x="876" y="1540" width="260" height="60" as="geometry" />
+          <mxGeometry x="876" y="1140" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pFNsEcpQbkUwThUsDJ2k-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="286e8270-9e5c-483f-bca4-5ea6bf7d46c3" target="wIxRWUz_mLLFGNtNrPbb-8">
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="286e8270-9e5c-483f-bca4-5ea6bf7d46c3" target="wIxRWUz_mLLFGNtNrPbb-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="286e8270-9e5c-483f-bca4-5ea6bf7d46c3" value="Picking item up / Podniesienie przedmiotu; (Leze Smoka, Bezimienny, Dragon_egg)" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=14;fontFamily=Helvetica;strokeColor=#006EAF;" parent="1" vertex="1">
-          <mxGeometry x="876" y="1670" width="260" height="60" as="geometry" />
+          <mxGeometry x="876" y="1280" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d87ccce7-0fa2-47d3-ac66-d33270c478d9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fillColor=#dae8fc;strokeColor=#006EAF;strokeWidth=3;" parent="1" source="ca7a4b49-a945-4d06-a97b-e252dfc63ecb" target="286e8270-9e5c-483f-bca4-5ea6bf7d46c3" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_W8T7ZiSsioaczAjbkDO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_W8T7ZiSsioaczAjbkDO-6" target="150d2f2c-e5d7-47c7-8557-95123b3f52c2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_W8T7ZiSsioaczAjbkDO-6" value="Picking up Innos Eye / Podniesienie Oka Innosa; (Ukryta Jaskinia, Bezimienny, Oko Innosa)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;fontSize=14;fontFamily=Helvetica;fillColor=#ffe6cc;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="876" y="820.5" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
