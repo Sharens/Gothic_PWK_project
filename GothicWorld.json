@@ -118,7 +118,7 @@
             ]
 		}, {
 			"Id": "007",
-			"Name": "0",
+			"Name": "Ukryta Jaskinia",
 			"Connections": [
 				{ "Destination": "001" },
 				{ "Destination": "003" }
