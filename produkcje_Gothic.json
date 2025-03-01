@@ -287,10 +287,7 @@
               "Characters": [],
               "Items": [
                 {
-                  "Id": "List Mocy",
-                  "Attributes": {},
-                  "Characters": [],
-                  "Items": []
+                  "Name": "List mocy"
                 }
               ]
             }
@@ -314,5 +311,50 @@
         "To": "Mag Wody/Items"
       }
     ]
+  },
+  {
+    "Title": "Picking up Ulu Mulu / Podniesienie Ulu Mulu",
+    "TitleGeneric": "Picking item up / Podniesienie przedmiotu",
+    "Description": "Bezimienny podnosi przedmiot leżący w lokacji.",
+    "Override": 2,
+    "LSide": {
+      "Locations": [
+        {
+          "Name": "Las pod miastem",
+          "Attributes": {},
+          "Characters": [
+            {
+              "Id": "Bezimienny",
+              "IsObject": true,
+              "Attributes": {},
+              "Characters": [],
+              "Items": []
+            }
+          ],
+          "Items": [
+            {
+              "Name": "Ulu Mulu",
+              "Attributes": {},
+              "Characters": [],
+              "Items": []
+            }
+          ]
+        }
+      ]
+    },
+    "RSide": {},
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "Ulu Mulu",
+        "To": "Bezimienny/Items"
+      },
+      {
+        "Op": "set",
+        "Attribute": "Bezimienny.HP",
+        "Expr": "Bezimienny.HP + 100"
+      }
+    ],
+    "Preconditions": []
   }
 ]
