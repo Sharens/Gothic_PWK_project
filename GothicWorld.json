@@ -21,6 +21,9 @@
 						},
 						{
 							"Destination": "008"
+						},
+						{
+							"Destination": "009"
 						}
 					],
 					"Characters": [
@@ -242,18 +245,31 @@
 				},
 				{
 					"Id": "009",
-					"Name": "Obozowisko Zolnierzy",
+					"Name": "Las pod miastem",
 					"Connections": [
 						{
-							"Destination": "008"
-						},
-						{
-							"Destination": "002"
+							"Destination": "005"
 						}
 					],
 					"Items": [
+					],
+					"Characters": [
 						{
-							"Name": "Plany Zolnierzy"
+							"Name": "Ork",
+							"Attributes": {
+								"HP": 80
+							},
+							"Items": [
+								{
+									"Name": "Ulu Mulu"
+								}
+							]
+						},
+						{
+							"Name": "Goblin",
+							"Attributes": {
+								"HP": 50
+							}
 						}
 					]
 				},
