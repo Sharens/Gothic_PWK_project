@@ -1,180 +1,282 @@
 [
 	{
-	  "Title": "Myrtana / Myrtana",
-	  "TitleGeneric": "",
-	  "Description": "Mapa świat do gry opartej na Gothicu",
-	  "Override": 0,
-	  "LSide": {
-		"Locations": [
-		{
-			"Id": "001",
-			"Name": "Plac_zamkowy",
-			"Connections": [ 
-                { "Destination": "002" },
-                { "Destination": "007" },
-                { "Destination": "003" },
-                { "Destination": "008" }    
-            ],
-			"Characters": [    
-                { "Name": "Przywodca Palladynow" },
-				{ 
-					"Name": "Bezimienny",
-					"Attributes": {
-						"HP": 100
-					}
-				}
-            ]
-		}, {
-			"Id": "002",
-			"Name": "Kopalnia",
-			"Connections": [
-                { "Destination": "003" },
-                { "Destination": "008" },
-				{ "Destination": "011" }
-            ],
-			"Characters": [
-				{ "Name": "Kelsier" },
-                {"Name": "Bandyci",
-				"Attributes": {
-						"HP": 20
-					}}
-			],
-			"Items":[
-                {"Name" : "Moc Atium"},
-                {"Name": "Ruda",
-					"Attributes":{
-                               "Value": 10
-                            }}
-            ]
-		}, {
-			"Id": "003",
-			"Name": "Gornicza Dolina",
-			"Connections": [
-				{ "Destination": "002" },
-                { "Destination": "005" },
-                {"Destination": "001"},
-                {"Destination": "007"},
-				{"Destination": "007"}
-
-			],
-			"Characters": [
-                {"Name": "Czarny Przemytnik"},
-			    {"Name": "Orkowie"}
-			],
-            "Items": [
-			{"Name": "Ore"}]
-		}, {
-			"Id": "004",
-			"Name": "Kuznia Atium",
-			"Connections": [
-				{ "Destination": "003" },
-				{ "Destination": "006" }
-			],
-            "Characters": [
-                {"Name": "Kelsier"}
-            ],
-            "Items": [
-                {"Name": "Pierscien Kelsiera",
-					"Attributes":{
-                               "NutritionalValue": 100
-                            }}
-            ]
-		}, {
-			"Id": "005",
-			"Name": "Chatka Feruchemika",
-			"Connections": [
-                {"Destination": "006"},
-                {"Destination": "003"}
-			],
-            "Characters": [
-                {"Name": "Feruchemik"}
-            ],
-            "Items": [
-                {"Name" : "Amulet"}
-            ]
-		}, {
-			"Id": "006",
-			"Name": "Leze Smoka",
-			"Connections": [
-				{ "Destination": "005" },
-				{ "Destination": "004" },
-                { "Destination": "011"}
-			],
-			"Items": [
+		"Title": "Myrtana / Myrtana",
+		"TitleGeneric": "",
+		"Description": "Mapa świat do gry opartej na Gothicu",
+		"Override": 0,
+		"LSide": {
+			"Locations": [
 				{
-					"Name": "Dragon_egg",
-					"Attributes": {
-						"Value": 4000
-					}
+					"Id": "001",
+					"Name": "Plac_zamkowy",
+					"Connections": [
+						{
+							"Destination": "002"
+						},
+						{
+							"Destination": "007"
+						},
+						{
+							"Destination": "003"
+						},
+						{
+							"Destination": "008"
+						}
+					],
+					"Characters": [
+						{
+							"Name": "Przywodca Palladynow"
+						},
+						{
+							"Name": "Bezimienny",
+							"Attributes": {
+								"HP": 100
+							}
+						}
+					]
+				},
+				{
+					"Id": "002",
+					"Name": "Kopalnia",
+					"Connections": [
+						{
+							"Destination": "003"
+						},
+						{
+							"Destination": "008"
+						},
+						{
+							"Destination": "011"
+						}
+					],
+					"Characters": [
+						{
+							"Name": "Kelsier"
+						},
+						{
+							"Name": "Bandyci",
+							"Attributes": {
+								"HP": 20
+							}
+						}
+					],
+					"Items": [
+						{
+							"Name": "Moc Atium"
+						},
+						{
+							"Name": "Ruda",
+							"Attributes": {
+								"Value": 10
+							}
+						}
+					]
+				},
+				{
+					"Id": "003",
+					"Name": "Gornicza Dolina",
+					"Connections": [
+						{
+							"Destination": "002"
+						},
+						{
+							"Destination": "005"
+						},
+						{
+							"Destination": "001"
+						},
+						{
+							"Destination": "007"
+						}
+					],
+					"Characters": [
+						{
+							"Name": "Czarny Przemytnik"
+						},
+						{
+							"Name": "Orkowie"
+						}
+					],
+					"Items": [
+						{
+							"Name": "Ore"
+						}
+					]
+				},
+				{
+					"Id": "004",
+					"Name": "Kuznia Atium",
+					"Connections": [
+						{
+							"Destination": "003"
+						},
+						{
+							"Destination": "006"
+						}
+					],
+					"Characters": [
+						{
+							"Name": "Kelsier"
+						}
+					],
+					"Items": [
+						{
+							"Name": "Pierscien Kelsiera",
+							"Attributes": {
+								"NutritionalValue": 100
+							}
+						}
+					]
+				},
+				{
+					"Id": "005",
+					"Name": "Chatka Feruchemika",
+					"Connections": [
+						{
+							"Destination": "006"
+						},
+						{
+							"Destination": "003"
+						}
+					],
+					"Characters": [
+						{
+							"Name": "Feruchemik"
+						}
+					],
+					"Items": [
+						{
+							"Name": "Amulet"
+						}
+					]
+				},
+				{
+					"Id": "006",
+					"Name": "Leze Smoka",
+					"Connections": [
+						{
+							"Destination": "005"
+						},
+						{
+							"Destination": "004"
+						},
+						{
+							"Destination": "011"
+						}
+					],
+					"Items": [
+						{
+							"Name": "Dragon_egg",
+							"Attributes": {
+								"Value": 4000
+							}
+						}
+					],
+					"Characters": [
+						{
+							"Name": "Smok Gromu",
+							"Attributes": {
+								"HP": 300
+							}
+						}
+					]
+				},
+				{
+					"Id": "007",
+					"Name": "Ukryta Jaskinia",
+					"Connections": [
+						{
+							"Destination": "001"
+						},
+						{
+							"Destination": "003"
+						}
+					],
+					"Items": [
+						{
+							"Name": "Oko Innosa"
+						}
+					],
+					"Characters": [
+						{
+							"Name": "Buntownik"
+						},
+						{
+							"Name": "Straznik"
+						},
+						{
+							"Name": "Szkielet"
+						}
+					]
+				},
+				{
+					"Id": "008",
+					"Name": "Oboz",
+					"Connections": [
+						{
+							"Destination": "001"
+						},
+						{
+							"Destination": "009"
+						},
+						{
+							"Destination": "011"
+						}
+					],
+					"Characters": [
+						{
+							"Name": "Lee"
+						},
+						{
+							"Name": "Bullco",
+							"Attributes": {
+								"HP": 15
+							}
+						}
+					],
+					"Items": [
+						{
+							"Name": "List mocy"
+						}
+					]
+				},
+				{
+					"Id": "009",
+					"Name": "Obozowisko Zolnierzy",
+					"Connections": [
+						{
+							"Destination": "008"
+						},
+						{
+							"Destination": "002"
+						}
+					],
+					"Items": [
+						{
+							"Name": "Plany Zolnierzy"
+						}
+					]
+				},
+				{
+					"Id": "011",
+					"Name": "Oboz Magow",
+					"Connections": [
+						{
+							"Destination": "006"
+						},
+						{
+							"Destination": "008"
+						}
+					],
+					"Characters": [
+						{
+							"Name": "Mag Wody"
+						}
+					]
 				}
-			],
-            "Characters": [
-                {
-					"Name": "Smok Gromu",
-					"Attributes": {
-						"HP": 300
-					}
-			}
-            ]
-		}, {
-			"Id": "007",
-			"Name": "Ukryta Jaskinia",
-			"Connections": [
-				{ "Destination": "001" },
-				{ "Destination": "003" }
-
-			],
-			"Items": [
-				{"Name": "Oko Innosa"}
-			],
-            "Characters": [
-                {"Name": "Buntownik"},
-                {"Name": "Straznik"},
-                {"Name": "Szkielet"}
-            ]
-		}, {
-			"Id": "008",
-			"Name": "Oboz",
-			"Connections": [
-				{ "Destination": "001" },
-				{ "Destination": "009" },
-				{ "Destination": "011" }
-			],
-            "Characters": [
-                {"Name": "Lee"},
-                {"Name": "Bullco",
-				"Attributes": {
-						"HP": 15
-					}
-				}
-            ],
-            "Items": [
-                {"Name": "List mocy"}
-            ]
-		}, {
-			"Id": "009",
-			"Name": "Obozowisko Zolnierzy",
-			"Connections": [
-				{ "Destination": "008" },
-				{ "Destination": "002" }
-			],
-			"Items": [
-                { "Name": "Plany Zolnierzy" }
-            ]
-		}, {
-			"Id": "011",
-			"Name": "Oboz Magow",
-			"Connections": [
-				{ "Destination": "006" },
-				{ "Destination": "008" }
-			],
-            "Characters": [
-                {"Name": "Mag Wody"}
-            ]
-		}
-	]
-},
-"RSide": {},
-"Instructions": []
-}
+			]
+		},
+		"RSide": {},
+		"Instructions": []
+	}
 ]
