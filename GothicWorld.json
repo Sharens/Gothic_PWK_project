@@ -136,10 +136,7 @@
 					"Name": "Chatka Feruchemika",
 					"Connections": [
 						{
-							"Destination": "006"
-						},
-						{
-							"Destination": "003"
+							"Destination": "007"
 						}
 					],
 					"Characters": [
@@ -186,10 +183,7 @@
 					"Name": "Ukryta Jaskinia",
 					"Connections": [
 						{
-							"Destination": "001"
-						},
-						{
-							"Destination": "003"
+							"Destination": "006"
 						}
 					],
 					"Items": [
