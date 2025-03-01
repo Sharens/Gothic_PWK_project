@@ -2,7 +2,7 @@
   {
     "Title": "DragonStory mission complited / Zakończenie sukcesem misji DragonStory",
     "TitleGeneric": "",
-    "Description": "«Bohater» osiągnął cel misji.",
+    "Description": "Bezimienny osiągnął cel misji.",
     "Comment": "Główny bohater musi być pierwszą wymienioną postacią",
     "Override": 0,
     "LSide": {
@@ -12,7 +12,7 @@
           "Attributes": {},
           "Characters": [
             {
-              "Id": "Bohater",
+              "Name": "Bezimienny",
               "IsObject": true,
               "Attributes": {},
               "Characters": [],
@@ -24,7 +24,6 @@
             }
           ],
           "Items": []
-
         }
       ]
     },
@@ -36,71 +35,69 @@
     ]
   },
   {
-      "Title": "RumcajsStory mission complited pl / Zakończenie sukcesem misji RumcajsStory pl",
-      "TitleGeneric": "",
-      "Description": "Rumcajs osiągnął cel misji.",
-      "Comment": "Główny bohater musi być pierwszą wymienioną postacią",
-      "Override": 0,
-      "LSide": {
-          "Locations": [
-              {
-                  "Name": "Jaskinia",
-                  "Characters": [
-                      {
-                          "Name": "Rumcajs"
-
-                      },
-                      {
-                          "Name": "Hanka",
-                          "Items": [
-                            {
-                                "Name": "Korale"
-                            }
-                        ]
-                      }
-                  ]
-              }
-          ]
-      },
-      "RSide": {},
-      "Instructions": [
+    "Title": "RumcajsStory mission complited pl / Zakończenie sukcesem misji RumcajsStory pl",
+    "TitleGeneric": "",
+    "Description": "Rumcajs osiągnął cel misji.",
+    "Comment": "Główny bohater musi być pierwszą wymienioną postacią",
+    "Override": 0,
+    "LSide": {
+      "Locations": [
         {
-            "Op": "winning"
+          "Name": "Jaskinia",
+          "Characters": [
+            {
+              "Name": "Rumcajs"
+            },
+            {
+              "Name": "Hanka",
+              "Items": [
+                {
+                  "Name": "Korale"
+                }
+              ]
+            }
+          ]
         }
       ]
+    },
+    "RSide": {},
+    "Instructions": [
+      {
+        "Op": "winning"
+      }
+    ]
   },
   {
-      "Title": "RumcajsStory mission complited en / Zakończenie sukcesem misji RumcajsStory en",
-      "TitleGeneric": "",
-      "Description": "Rumcajs osiągnął cel misji.",
-      "Comment": "Główny bohater musi być pierwszą wymienioną postacią",
-      "Override": 0,
-      "LSide": {
-          "Locations": [
-              {
-                  "Name": "Cave",
-                  "Characters": [
-                      {
-                          "Name": "Rumcajs"
-
-                      },
-                      {
-                          "Name": "Manka",
-                          "Items": [
-                            {
-                                "Name": "Necklace"
-                            }
-                        ]
-                      }
-                  ]
-              }
-          ]
-      },
-      "RSide": {},
-      "Instructions": [
+    "Title": "RumcajsStory mission complited en / Zakończenie sukcesem misji RumcajsStory en",
+    "TitleGeneric": "",
+    "Description": "Rumcajs osiągnął cel misji.",
+    "Comment": "Główny bohater musi być pierwszą wymienioną postacią",
+    "Override": 0,
+    "LSide": {
+      "Locations": [
         {
-            "Op": "winning"
+          "Name": "Cave",
+          "Characters": [
+            {
+              "Name": "Rumcajs"
+            },
+            {
+              "Name": "Manka",
+              "Items": [
+                {
+                  "Name": "Necklace"
+                }
+              ]
+            }
+          ]
         }
       ]
+    },
+    "RSide": {},
+    "Instructions": [
+      {
+        "Op": "winning"
+      }
+    ]
   }
 ]
