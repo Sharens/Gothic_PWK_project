@@ -167,20 +167,17 @@
 							"Destination": "011"
 						}
 					],
-					"Items": [
-						{
-							"Name": "Dragon_egg",
-							"Attributes": {
-								"Value": 4000
-							}
-						}
-					],
 					"Characters": [
 						{
 							"Name": "Smok Gromu",
 							"Attributes": {
 								"HP": 300
-							}
+							},
+							"Items": [
+								{
+									"Name": "Dragon_egg"
+								}
+							]
 						}
 					]
 				},
@@ -251,8 +248,7 @@
 							"Destination": "005"
 						}
 					],
-					"Items": [
-					],
+					"Items": [],
 					"Characters": [
 						{
 							"Name": "Ork",
