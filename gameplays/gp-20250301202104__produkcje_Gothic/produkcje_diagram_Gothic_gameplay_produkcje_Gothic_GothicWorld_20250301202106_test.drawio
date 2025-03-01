@@ -1,0 +1,194 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram id="rkxneIpJQOFQeqjlJjRi" name="DiagramFabuly">
+    <mxGraphModel dx="2412" dy="2009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L8YZ8_fF07wdOiWUrEbG-100" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontFamily=Helvetica;fontSize=14;strokeColor=none;container=0;" parent="1" vertex="1">
+          <mxGeometry x="866" y="-70" width="280" height="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L8YZ8_fF07wdOiWUrEbG-86" target="L8YZ8_fF07wdOiWUrEbG-108" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L8YZ8_fF07wdOiWUrEbG-86" target="zkXEyK3gHYX9UNPN8YG--2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L8YZ8_fF07wdOiWUrEbG-86" target="zkXEyK3gHYX9UNPN8YG--41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L8YZ8_fF07wdOiWUrEbG-86" value="&lt;font&gt;(Plac Zamkowy)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;container=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="876" y="-170" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L8YZ8_fF07wdOiWUrEbG-108" target="zkXEyK3gHYX9UNPN8YG--17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1006" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8YZ8_fF07wdOiWUrEbG-108" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font face=&quot;arial&quot;&gt;&lt;span&gt;Location change / Zmiana lokacji; (Bezimienny, Kopalnia)&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;container=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="876" y="-40" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" parent="1" source="L8YZ8_fF07wdOiWUrEbG-129" target="zkXEyK3gHYX9UNPN8YG--22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1006" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8YZ8_fF07wdOiWUrEbG-129" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font face=&quot;arial&quot;&gt;&lt;span&gt;Location change / Zmiana lokacji;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: arial;&quot;&gt;(Bezimienny, Chatka Feruchemika)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;container=0;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="876" y="440" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wIxRWUz_mLLFGNtNrPbb-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=center;fillColor=#fff2cc;strokeWidth=1;strokeColor=#d6b656;container=0;" parent="1" vertex="1">
+          <mxGeometry x="986" y="1490" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pFNsEcpQbkUwThUsDJ2k-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1006" y="260" as="sourcePoint" />
+            <mxPoint x="1006" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--2" target="zkXEyK3gHYX9UNPN8YG--5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GhO89Z5Zg2I-rU7ogqVO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" parent="1" source="zkXEyK3gHYX9UNPN8YG--2" target="zkXEyK3gHYX9UNPN8YG--9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--2" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font face=&quot;arial&quot;&gt;&lt;span&gt;Location change / Zmiana lokacji; (Bezimienny, Las pod miastem)&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;container=0;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="470" y="-40" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--5" target="zkXEyK3gHYX9UNPN8YG--6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GhO89Z5Zg2I-rU7ogqVO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--5" target="zkXEyK3gHYX9UNPN8YG--9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhO89Z5Zg2I-rU7ogqVO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--5" target="L8YZ8_fF07wdOiWUrEbG-129" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--5" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Fight ending with character’s death / Walka zakończona śmiercią uczestnika; &lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(Las pod miastem, Bezimienny, Goblin)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="470" y="30" width="260" height="63.37" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="370" y="36.68000000000001" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--9" target="zkXEyK3gHYX9UNPN8YG--10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" parent="1" source="zkXEyK3gHYX9UNPN8YG--9" target="zkXEyK3gHYX9UNPN8YG--15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--9" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Fight ending with character’s death / Walka zakończona śmiercią uczestnika; (Las pod miastem, Bezimienny, Ork)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="50" y="140" width="260" height="63.37" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="146.69" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--15" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Picking up Ulu Mulu / Podniesienie Ulu Mulu; (Las pod miastem, Bezimienny, Ulu Mulu)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="50" y="300" width="260" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--17" target="zkXEyK3gHYX9UNPN8YG--19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1006" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--17" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Picking up Power of Atium / Podniesienie Mocy Atium; (Kopalnia, Bezimienny, Moc Atium)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="876" y="60" width="260" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--19" value="Location change / Zmiana lokacji; (Bezimienny, Gornicza Dolina)" style="rounded=0;whiteSpace=wrap;html=1;align=center;container=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="876" y="210" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--20" target="L8YZ8_fF07wdOiWUrEbG-129" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Picking up Ore / Podniesienie Rudy; (Gornicza Dolina, Bezimienny, Ore)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="876" y="320" width="260" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" parent="1" source="zkXEyK3gHYX9UNPN8YG--22" target="zkXEyK3gHYX9UNPN8YG--24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1006" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--22" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Picking up Amulet / Podniesienie Amuletu; (Chatka Feruchemika, Bezimienny, Amulet)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="876" y="550" width="260" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" parent="1" source="zkXEyK3gHYX9UNPN8YG--24" target="zkXEyK3gHYX9UNPN8YG--25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--24" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;Location change / Zmiana lokacji; (Bezimienny, Ukryta Jaskinia)&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;container=0;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="876" y="690" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" parent="1" source="zkXEyK3gHYX9UNPN8YG--25" target="zkXEyK3gHYX9UNPN8YG--27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--25" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Picking up Innos Eye / Podniesienie Oka Innosa; (Ukryta Jaskinia, Bezimienny, Oko Innosa)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="876" y="770" width="260" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" parent="1" source="zkXEyK3gHYX9UNPN8YG--27" target="zkXEyK3gHYX9UNPN8YG--31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--27" value="Location change / Zmiana lokacji; (Bezimienny, Leze Smoka)" style="rounded=0;whiteSpace=wrap;html=1;align=center;container=0;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="876" y="950" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" parent="1" source="zkXEyK3gHYX9UNPN8YG--31" target="zkXEyK3gHYX9UNPN8YG--34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--31" target="zkXEyK3gHYX9UNPN8YG--37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--31" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Fight ending with character’s death / Walka zakończona śmiercią uczestnika; (Leze Smoka, Bezimienny, Smok Gromu)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="876" y="1110" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--34" value="Death" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=center;fillColor=#000000;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="790" y="1125" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zkXEyK3gHYX9UNPN8YG--37" target="wIxRWUz_mLLFGNtNrPbb-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--37" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Picking item up / Podniesienie przedmiotu; (Leze Smoka, Bezimienny, Dragon_egg)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="876" y="1240" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--40" target="zkXEyK3gHYX9UNPN8YG--45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--40" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Picking up Letter of Power / Podniesienie Listu Mocy; (Oboz, Bezimienny, List mocy)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="37.00000000000001" width="260" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--41" target="zkXEyK3gHYX9UNPN8YG--40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--41" value="&lt;font face=&quot;arial&quot;&gt;Location change / Zmiana lokacji; (Bezimienny, Oboz)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;container=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="-50" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--45" target="zkXEyK3gHYX9UNPN8YG--48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--45" value="&lt;font face=&quot;arial&quot;&gt;Location change / Zmiana lokacji; (Bezimienny, Oboz Magow)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;container=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="193.37" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zkXEyK3gHYX9UNPN8YG--48" target="zkXEyK3gHYX9UNPN8YG--27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkXEyK3gHYX9UNPN8YG--48" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Wizard casts a protective spell / Mag rzuca zaklęcie ochronne ; (Oboz Magow, Bezimienny, List mocy)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="320" width="260" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="pSRuhmVxRydMg8v2fXFS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" edge="1" parent="1" source="zkXEyK3gHYX9UNPN8YG--15" target="L8YZ8_fF07wdOiWUrEbG-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="517" as="targetPoint" />
+            <mxPoint x="170" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
